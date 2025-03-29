@@ -1,0 +1,21 @@
+{
+  "name": "better-server-only",
+  "description": "A better version of React's server-only package. Import the package to mark a module is only available on the server.",
+  "keywords": [
+    "react",
+    "server",
+    "server-only"
+  ],
+  "version": "0.0.1",
+  "homepage": "https://github.com/ianjaku/better-server-only",
+  "bugs": "https://github.com/ianjaku/better-server-only/issues",
+  "license": "MIT",
+  "files": ["index.js", "empty.js"],
+  "main": "index.js",
+  "exports": {
+    ".": {
+      "react-server": "./empty.js",
+      "default": "./index.js"
+    }
+  }
+}
