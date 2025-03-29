@@ -8,14 +8,23 @@
   ],
   "version": "0.0.1",
   "homepage": "https://github.com/ianjaku/better-server-only",
-  "bugs": "https://github.com/ianjaku/better-server-only/issues",
+  "bugs": {
+    "url": "https://github.com/ianjaku/better-server-only/issues"
+  },
   "license": "MIT",
-  "files": ["index.js", "empty.js"],
+  "files": [
+    "index.js",
+    "empty.js"
+  ],
   "main": "index.js",
   "exports": {
     ".": {
       "react-server": "./empty.js",
       "default": "./index.js"
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianjaku/better-server-only.git"
   }
 }
