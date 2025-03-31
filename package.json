@@ -16,7 +16,7 @@
     "index.js",
     "empty.js"
   ],
-  "main": "index.js",
+  "main": "./index.js",
   "exports": {
     ".": {
       "react-server": "./empty.js",

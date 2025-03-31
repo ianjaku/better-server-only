@@ -11,3 +11,4 @@ if (process.env.BETTER_SERVER_ONLY !== "disabled") {
   `)
 }
 
+module.exports = {}
